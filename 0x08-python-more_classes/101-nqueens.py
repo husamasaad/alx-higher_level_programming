@@ -32,7 +32,7 @@ if __name__ == "__main__":
         return False
 
     def reject(x, y):
-        """determines whether or not to reject the solution"""
+        """determines whether or not to reject a solution"""
         if (already_exists(y)):
             return False
         i = 0
